@@ -24,7 +24,7 @@ const projects = [
       "In this project, I developed a Composite Drought Index for Punjab, Pakistan (2001–2022) by integrating calculated Soil Moisture Condition Index (SMCI), the Temperature Vegetation Dryness Index (TVDI), and the Standardized Precipitation Evapotranspiration Index (SPEI). Drought conditions were assessed using MODIS remote sensing data from MOD13Q1 (MODIS/Terra Vegetation Indices 08-Day L3 Global 250m) for NDVI and MOD11A1 (MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 1km) for LST, with 2022 drought maps prominently displayed.",
     layers: [
       { name: "CDI 2022", url: "/tiles/punjabdrought/cdi/{z}/{x}/{y}.png" },
-      { name: "SMCI 2022", url: "/tiles/punjabdrought/SMCI/{z}/{x}/{y}.png" },
+      { name: "SMCI 2022", url: "/tiles/punjabdrought/smci/{z}/{x}/{y}.png" },
       { name: "SPEI 2022", url: "/tiles/punjabdrought/spei/{z}/{x}/{y}.png" },
       { name: "TVDI 2022", url: "/tiles/punjabdrought/tvdi/{z}/{x}/{y}.png" },
     ],
