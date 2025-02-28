@@ -90,7 +90,13 @@ const extraProjects = [
     description: "This interactive Earth Engine application quantifies wildfire impacts by calculating the difference in Normalized Burn Ratio (dNBR) between pre-fire and post-fire periods using Landsat 8 data. Users can select custom date ranges and areas of interest to generate composite images that highlight burned regions. The app visualizes the extent of fire damage and computes an approximate burned area, offering valuable insights for wildfire management and environmental monitoring.",
     image: "/images/wf.png",
     link: "https://code.earthengine.google.com/e4d3d4a027d8be622ac0d597535db88a"
-  }
+  },
+  {
+    title: "AI Image Segmentation and GeoTIFF Downloader App",
+    description: "This application enables users to retrieve high-resolution GeoTIFF imagery from Google Satellite basemaps and perform semantic segmentation via the Segment-Geospatial Python library. It automates the extraction of geospatial features, generating vectorized GeoJSON outputs for downstream analysis. The tool integrates raster data acquisition, Deep Learning-based segmentation, and vector data export into a streamlined workflow. This solution optimizes geospatial analysis workflows by bridging satellite imagery acquisition and feature extraction.",
+    link: "https://github.com/Fahadk2103/Segmentation-App",
+    image: "/images/seg3.png",
+  },
 ]
 
 const certificates = [
